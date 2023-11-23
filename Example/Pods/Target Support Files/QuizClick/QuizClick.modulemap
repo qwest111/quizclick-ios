@@ -1,0 +1,6 @@
+framework module QuizClick {
+  umbrella header "QuizClick-umbrella.h"
+
+  export *
+  module * { export * }
+}

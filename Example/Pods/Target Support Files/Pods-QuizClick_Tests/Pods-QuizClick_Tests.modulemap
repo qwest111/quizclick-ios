@@ -1,0 +1,6 @@
+framework module Pods_QuizClick_Tests {
+  umbrella header "Pods-QuizClick_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

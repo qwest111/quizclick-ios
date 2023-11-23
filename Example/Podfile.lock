@@ -1,0 +1,16 @@
+PODS:
+  - QuizClick (0.1.0)
+
+DEPENDENCIES:
+  - QuizClick (from `../`)
+
+EXTERNAL SOURCES:
+  QuizClick:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QuizClick: db6b297f90ea628fecfc032b965f4e775fd04ce2
+
+PODFILE CHECKSUM: 2e84e0bcac71ea9762e8a176e702aaa7ecfbf4e1
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13EE18797B0C1684088703EB456248D6 /* Pods-QuizClick_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DBF6C75A61CDD09528B1DC5F80A93B /* Pods-QuizClick_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232BCC150762E17A4DCD723E4F522D31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3FCE84F39777C65D32A830A232D064C3 /* Pods-QuizClick_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6A9A5E98CB9CFDF8B34E4A13B85B8F /* Pods-QuizClick_Tests-dummy.m */; };
+		45427437D626A4123CD14127F416848A /* QuizClick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8588A392A4C804950E97BD1E89267E9F /* QuizClick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70559D3CDA8FB29ABC581D16832DC40C /* Pods-QuizClick_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F95B331D4F13C896DF7AB25F3474706E /* Pods-QuizClick_Example-dummy.m */; };
+		7680321E3F63DF79A0F8EA98F1AA17F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		97F0377D176F0A205F4B90FCBC45E188 /* QuizClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478A85A82C7697E3FB86D512C13E5280 /* QuizClick.swift */; };
+		A1DB3FFF86B7F8A79D6263843C5C5798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D1C5B204CCFAC552535AF8DE7DCC9F5A /* QuizClick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552F1D70E9123B3CD0B6658F019DAC47 /* QuizClick-dummy.m */; };
+		F7D29F8E2B0C45FC003791E9 /* QuizClick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D29F8D2B0C45FC003791E9 /* QuizClick.storyboard */; };
+		F7D29FEB2B0F2FEC003791E9 /* QuizClickLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D29FEA2B0F2FEC003791E9 /* QuizClickLoader.swift */; };
+		FF0CD54FEE25B6649CDD5C522D850DD0 /* Pods-QuizClick_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759B355911DA58ACAEA6420CBBF5FA2F /* Pods-QuizClick_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12AEF2390FF30AD69578030BDA7A637A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03458581D0F952FADF43B615E89B31AA;
+			remoteInfo = "Pods-QuizClick_Example";
+		};
+		25A866AFD9AAEA6A9D86338AC41B1126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B20BCB60B16DC105FF34715D74566ED;
+			remoteInfo = QuizClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062C6C4549A7258C3A1725B6BE3CEBBF /* QuizClick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QuizClick-Info.plist"; sourceTree = "<group>"; };
+		07968B3E014DBCF1F93F6B37816C0F28 /* Pods-QuizClick_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClick_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C2312AB487DE90F4E7E5D6DB5A96976 /* Pods-QuizClick_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizClick_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E8F2A124B44B86C0C9B1BC606E9F2AA /* QuizClick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuizClick-prefix.pch"; sourceTree = "<group>"; };
+		2853CF2EB53E658278A91169237D3419 /* Pods-QuizClick_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizClick_Tests-Info.plist"; sourceTree = "<group>"; };
+		2B5B096A407EF74CDE7CE1525DAAA796 /* Pods_QuizClick_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizClick_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		478A85A82C7697E3FB86D512C13E5280 /* QuizClick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuizClick.swift; path = QuizClick/Classes/QuizClick.swift; sourceTree = "<group>"; };
+		4D1507CDBB3B38CC24733722DD677676 /* QuizClick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QuizClick.modulemap; sourceTree = "<group>"; };
+		552F1D70E9123B3CD0B6658F019DAC47 /* QuizClick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuizClick-dummy.m"; sourceTree = "<group>"; };
+		5A756AC7C5EDB85A8604F8353AC30A42 /* Pods-QuizClick_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClick_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		61A539A116D4A92908556C3A13C332E8 /* Pods_QuizClick_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizClick_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		737B4140D80AC1D1D7CB923D7AB4856C /* Pods-QuizClick_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuizClick_Example.modulemap"; sourceTree = "<group>"; };
+		73F33F3C5F54D7CDD4A36EB3D98A8092 /* Pods-QuizClick_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizClick_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		759B355911DA58ACAEA6420CBBF5FA2F /* Pods-QuizClick_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizClick_Example-umbrella.h"; sourceTree = "<group>"; };
+		782BB122BF78D3368412897512F0A3D8 /* Pods-QuizClick_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizClick_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F6A864DEF380AB167BE56CCFDB1C343 /* Pods-QuizClick_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuizClick_Tests.modulemap"; sourceTree = "<group>"; };
+		8588A392A4C804950E97BD1E89267E9F /* QuizClick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuizClick-umbrella.h"; sourceTree = "<group>"; };
+		9933DF2898A1307EF617B89CEE274EC2 /* Pods-QuizClick_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizClick_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9D22408FEDC4936233D81D39445979B /* Pods-QuizClick_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClick_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AF9BE037C978D9A0C17F9DB8C0F3FA1F /* Pods-QuizClick_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizClick_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCBC3CBF39D2057BDDA3D578E41F253E /* QuizClick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizClick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE83FBF25ADBC16265A7C2972B33B07 /* Pods-QuizClick_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizClick_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D4DBF6C75A61CDD09528B1DC5F80A93B /* Pods-QuizClick_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizClick_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D6938C45C7126A3C364D322E149D2CEA /* QuizClick.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QuizClick.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8CA36B62CADCFCC8C3E55FB6425E032 /* QuizClick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuizClick.release.xcconfig; sourceTree = "<group>"; };
+		DC859933F6811FE2819DB80E1E099783 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E0DAAB2FE922E47531A7E315F0476172 /* Pods-QuizClick_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClick_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E62BE6BB184F171648F2F2BC38005BBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F62B947A28156A2A60E7F74080E55DF0 /* QuizClick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuizClick.debug.xcconfig; sourceTree = "<group>"; };
+		F7D29F8D2B0C45FC003791E9 /* QuizClick.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuizClick.storyboard; sourceTree = "<group>"; };
+		F7D29FEA2B0F2FEC003791E9 /* QuizClickLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizClickLoader.swift; path = QuizClick/Classes/QuizClickLoader.swift; sourceTree = "<group>"; };
+		F95B331D4F13C896DF7AB25F3474706E /* Pods-QuizClick_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizClick_Example-dummy.m"; sourceTree = "<group>"; };
+		FD6A9A5E98CB9CFDF8B34E4A13B85B8F /* Pods-QuizClick_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizClick_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C68271F4C3FF84D4F4F98E81193B791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7680321E3F63DF79A0F8EA98F1AA17F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD7FC3607F8AD912F5F84E1399C9882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DB3FFF86B7F8A79D6263843C5C5798 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B332CE1DB2C44AA3812B7831E8DDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232BCC150762E17A4DCD723E4F522D31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043493A7FE7184A19082FB22B1A883E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A539A116D4A92908556C3A13C332E8 /* Pods_QuizClick_Example.framework */,
+				2B5B096A407EF74CDE7CE1525DAAA796 /* Pods_QuizClick_Tests.framework */,
+				BCBC3CBF39D2057BDDA3D578E41F253E /* QuizClick.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A71BDDFD047A206F0C6B1BC409E7E00 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4BB8A6A7B38C40161308F272ACC9A6B /* QuizClick */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		728FE79FCFDBC8312CFDA4BFE1ECC816 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D1507CDBB3B38CC24733722DD677676 /* QuizClick.modulemap */,
+				552F1D70E9123B3CD0B6658F019DAC47 /* QuizClick-dummy.m */,
+				062C6C4549A7258C3A1725B6BE3CEBBF /* QuizClick-Info.plist */,
+				1E8F2A124B44B86C0C9B1BC606E9F2AA /* QuizClick-prefix.pch */,
+				8588A392A4C804950E97BD1E89267E9F /* QuizClick-umbrella.h */,
+				F62B947A28156A2A60E7F74080E55DF0 /* QuizClick.debug.xcconfig */,
+				D8CA36B62CADCFCC8C3E55FB6425E032 /* QuizClick.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QuizClick";
+			sourceTree = "<group>";
+		};
+		73EE46D05421428F4089CA9FCBBDC53C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9817EC487D827A3C2BDCBDA7A91BA6E7 /* Pods-QuizClick_Example */,
+				C1CCE61652DC6FB2428D308E1997F26F /* Pods-QuizClick_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9817EC487D827A3C2BDCBDA7A91BA6E7 /* Pods-QuizClick_Example */ = {
+			isa = PBXGroup;
+			children = (
+				737B4140D80AC1D1D7CB923D7AB4856C /* Pods-QuizClick_Example.modulemap */,
+				782BB122BF78D3368412897512F0A3D8 /* Pods-QuizClick_Example-acknowledgements.markdown */,
+				0C2312AB487DE90F4E7E5D6DB5A96976 /* Pods-QuizClick_Example-acknowledgements.plist */,
+				F95B331D4F13C896DF7AB25F3474706E /* Pods-QuizClick_Example-dummy.m */,
+				BDE83FBF25ADBC16265A7C2972B33B07 /* Pods-QuizClick_Example-frameworks.sh */,
+				9933DF2898A1307EF617B89CEE274EC2 /* Pods-QuizClick_Example-Info.plist */,
+				759B355911DA58ACAEA6420CBBF5FA2F /* Pods-QuizClick_Example-umbrella.h */,
+				5A756AC7C5EDB85A8604F8353AC30A42 /* Pods-QuizClick_Example.debug.xcconfig */,
+				E0DAAB2FE922E47531A7E315F0476172 /* Pods-QuizClick_Example.release.xcconfig */,
+			);
+			name = "Pods-QuizClick_Example";
+			path = "Target Support Files/Pods-QuizClick_Example";
+			sourceTree = "<group>";
+		};
+		B4BB8A6A7B38C40161308F272ACC9A6B /* QuizClick */ = {
+			isa = PBXGroup;
+			children = (
+				478A85A82C7697E3FB86D512C13E5280 /* QuizClick.swift */,
+				F7D29FEA2B0F2FEC003791E9 /* QuizClickLoader.swift */,
+				E06BB28BCA09A2B2798B62E3D5D920D6 /* Pod */,
+				728FE79FCFDBC8312CFDA4BFE1ECC816 /* Support Files */,
+				F7D29F8D2B0C45FC003791E9 /* QuizClick.storyboard */,
+			);
+			name = QuizClick;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1CCE61652DC6FB2428D308E1997F26F /* Pods-QuizClick_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7F6A864DEF380AB167BE56CCFDB1C343 /* Pods-QuizClick_Tests.modulemap */,
+				73F33F3C5F54D7CDD4A36EB3D98A8092 /* Pods-QuizClick_Tests-acknowledgements.markdown */,
+				AF9BE037C978D9A0C17F9DB8C0F3FA1F /* Pods-QuizClick_Tests-acknowledgements.plist */,
+				FD6A9A5E98CB9CFDF8B34E4A13B85B8F /* Pods-QuizClick_Tests-dummy.m */,
+				2853CF2EB53E658278A91169237D3419 /* Pods-QuizClick_Tests-Info.plist */,
+				D4DBF6C75A61CDD09528B1DC5F80A93B /* Pods-QuizClick_Tests-umbrella.h */,
+				07968B3E014DBCF1F93F6B37816C0F28 /* Pods-QuizClick_Tests.debug.xcconfig */,
+				A9D22408FEDC4936233D81D39445979B /* Pods-QuizClick_Tests.release.xcconfig */,
+			);
+			name = "Pods-QuizClick_Tests";
+			path = "Target Support Files/Pods-QuizClick_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4A71BDDFD047A206F0C6B1BC409E7E00 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				043493A7FE7184A19082FB22B1A883E2 /* Products */,
+				73EE46D05421428F4089CA9FCBBDC53C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06BB28BCA09A2B2798B62E3D5D920D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DC859933F6811FE2819DB80E1E099783 /* LICENSE */,
+				D6938C45C7126A3C364D322E149D2CEA /* QuizClick.podspec */,
+				E62BE6BB184F171648F2F2BC38005BBD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D66E62650AE0311A40FAA29AF856C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45427437D626A4123CD14127F416848A /* QuizClick-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA840E380247903FB4A8DCE0F7D5C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EE18797B0C1684088703EB456248D6 /* Pods-QuizClick_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EBC09E06DBACF50CD050CAE8E62152 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0CD54FEE25B6649CDD5C522D850DD0 /* Pods-QuizClick_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03458581D0F952FADF43B615E89B31AA /* Pods-QuizClick_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF3133D57F774E8F31EB196FF90F1F2 /* Build configuration list for PBXNativeTarget "Pods-QuizClick_Example" */;
+			buildPhases = (
+				88EBC09E06DBACF50CD050CAE8E62152 /* Headers */,
+				6AE11C9D4B3A4E2727E8D6247E13E00B /* Sources */,
+				5C68271F4C3FF84D4F4F98E81193B791 /* Frameworks */,
+				AC7341D71CC6E872C91549A7F10A6578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B767DB8EEB0F44B804CD8D7F41D8A03 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuizClick_Example";
+			productName = Pods_QuizClick_Example;
+			productReference = 61A539A116D4A92908556C3A13C332E8 /* Pods_QuizClick_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B20BCB60B16DC105FF34715D74566ED /* QuizClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CCEB334B97884154300DC37C321C8B /* Build configuration list for PBXNativeTarget "QuizClick" */;
+			buildPhases = (
+				32D66E62650AE0311A40FAA29AF856C8 /* Headers */,
+				71E8EC9712BC72CFC53DF186D0A8ED93 /* Sources */,
+				BAD7FC3607F8AD912F5F84E1399C9882 /* Frameworks */,
+				FC4C16187E7EC12483CEBC9CC6C49105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizClick;
+			productName = QuizClick;
+			productReference = BCBC3CBF39D2057BDDA3D578E41F253E /* QuizClick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0D0CAF3972DE8248232C5C7DB2B62DC /* Pods-QuizClick_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E86DF328DC77006AADE30E7197E0508 /* Build configuration list for PBXNativeTarget "Pods-QuizClick_Tests" */;
+			buildPhases = (
+				49DA840E380247903FB4A8DCE0F7D5C7 /* Headers */,
+				43FFB77A52843B79DE19436FFFA0DE18 /* Sources */,
+				E7B332CE1DB2C44AA3812B7831E8DDC3 /* Frameworks */,
+				6E5E1157ACA6015B059AA977C68F9966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107267CBF6ADCF730229B25150186C78 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuizClick_Tests";
+			productName = Pods_QuizClick_Tests;
+			productReference = 2B5B096A407EF74CDE7CE1525DAAA796 /* Pods_QuizClick_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 043493A7FE7184A19082FB22B1A883E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03458581D0F952FADF43B615E89B31AA /* Pods-QuizClick_Example */,
+				E0D0CAF3972DE8248232C5C7DB2B62DC /* Pods-QuizClick_Tests */,
+				6B20BCB60B16DC105FF34715D74566ED /* QuizClick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5E1157ACA6015B059AA977C68F9966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7341D71CC6E872C91549A7F10A6578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4C16187E7EC12483CEBC9CC6C49105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D29F8E2B0C45FC003791E9 /* QuizClick.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43FFB77A52843B79DE19436FFFA0DE18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCE84F39777C65D32A830A232D064C3 /* Pods-QuizClick_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE11C9D4B3A4E2727E8D6247E13E00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70559D3CDA8FB29ABC581D16832DC40C /* Pods-QuizClick_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8EC9712BC72CFC53DF186D0A8ED93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D29FEB2B0F2FEC003791E9 /* QuizClickLoader.swift in Sources */,
+				D1C5B204CCFAC552535AF8DE7DCC9F5A /* QuizClick-dummy.m in Sources */,
+				97F0377D176F0A205F4B90FCBC45E188 /* QuizClick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107267CBF6ADCF730229B25150186C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QuizClick_Example";
+			target = 03458581D0F952FADF43B615E89B31AA /* Pods-QuizClick_Example */;
+			targetProxy = 12AEF2390FF30AD69578030BDA7A637A /* PBXContainerItemProxy */;
+		};
+		2B767DB8EEB0F44B804CD8D7F41D8A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuizClick;
+			target = 6B20BCB60B16DC105FF34715D74566ED /* QuizClick */;
+			targetProxy = 25A866AFD9AAEA6A9D86338AC41B1126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B917F59DD1FF70BA1AB12B47FAF29A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CA36B62CADCFCC8C3E55FB6425E032 /* QuizClick.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuizClick/QuizClick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuizClick/QuizClick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuizClick/QuizClick.modulemap";
+				PRODUCT_MODULE_NAME = QuizClick;
+				PRODUCT_NAME = QuizClick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5891C72C24F7CE46E660B2105FE72DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07968B3E014DBCF1F93F6B37816C0F28 /* Pods-QuizClick_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClick_Tests/Pods-QuizClick_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClick_Tests/Pods-QuizClick_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A5754E4A91150A14BE58E5F2E7A5C525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D22408FEDC4936233D81D39445979B /* Pods-QuizClick_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClick_Tests/Pods-QuizClick_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClick_Tests/Pods-QuizClick_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACEA768391649325506D6B44EAF94F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DAAB2FE922E47531A7E315F0476172 /* Pods-QuizClick_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClick_Example/Pods-QuizClick_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClick_Example/Pods-QuizClick_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7E32A0E589F9F965F66BAA3FA79E011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A756AC7C5EDB85A8604F8353AC30A42 /* Pods-QuizClick_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizClick_Example/Pods-QuizClick_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizClick_Example/Pods-QuizClick_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6FBC24FDD249BEDE6A29170C32E43BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62B947A28156A2A60E7F74080E55DF0 /* QuizClick.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuizClick/QuizClick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuizClick/QuizClick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuizClick/QuizClick.modulemap";
+				PRODUCT_MODULE_NAME = QuizClick;
+				PRODUCT_NAME = QuizClick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF3133D57F774E8F31EB196FF90F1F2 /* Build configuration list for PBXNativeTarget "Pods-QuizClick_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E32A0E589F9F965F66BAA3FA79E011 /* Debug */,
+				ACEA768391649325506D6B44EAF94F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E86DF328DC77006AADE30E7197E0508 /* Build configuration list for PBXNativeTarget "Pods-QuizClick_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5891C72C24F7CE46E660B2105FE72DE2 /* Debug */,
+				A5754E4A91150A14BE58E5F2E7A5C525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CCEB334B97884154300DC37C321C8B /* Build configuration list for PBXNativeTarget "QuizClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FBC24FDD249BEDE6A29170C32E43BD /* Debug */,
+				1B917F59DD1FF70BA1AB12B47FAF29A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
