@@ -2,7 +2,7 @@
 //  QuizClickLoader.swift
 //  QuizClick
 //
-//  Created by anytoon on 2023/11/21.
+//  Created by jamonglab on 2023/11/21.
 //
 
 import Foundation

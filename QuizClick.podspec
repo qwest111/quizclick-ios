@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QuizClick'
-  s.version          = '0.3.8'
+  s.version          = '0.3.9'
   s.summary          = 'A short description of QuizClick.'
 
 # This description is used to generate tags and improve search results.

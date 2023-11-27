@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  QuizClick
 //
-//  Created by jongwan on 11/21/2023.
-//  Copyright (c) 2023 jongwan. All rights reserved.
+//  Created by jamonglab on 11/21/2023.
+//  Copyright (c) 2023 jamonglab. All rights reserved.
 //
 
 import UIKit
