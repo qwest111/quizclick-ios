@@ -15,9 +15,9 @@
 		7680321E3F63DF79A0F8EA98F1AA17F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A1DB3FFF86B7F8A79D6263843C5C5798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D1C5B204CCFAC552535AF8DE7DCC9F5A /* QuizClick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 552F1D70E9123B3CD0B6658F019DAC47 /* QuizClick-dummy.m */; };
-		F7D29F8E2B0C45FC003791E9 /* QuizClick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D29F8D2B0C45FC003791E9 /* QuizClick.storyboard */; };
-		F7D29FF12B14174A003791E9 /* QuizClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D29FF02B14174A003791E9 /* QuizClick.swift */; };
-		F7D29FF32B14175D003791E9 /* QuizClickLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D29FF22B14175D003791E9 /* QuizClickLoader.swift */; };
+		F7D29FF52B14198D003791E9 /* QuizClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D29FF42B14198D003791E9 /* QuizClick.swift */; };
+		F7D29FF92B1419BE003791E9 /* QuizClickLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D29FF82B1419BE003791E9 /* QuizClickLoader.swift */; };
+		F7D29FFB2B1419DE003791E9 /* QuizClick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D29FFA2B1419DE003791E9 /* QuizClick.storyboard */; };
 		FF0CD54FEE25B6649CDD5C522D850DD0 /* Pods-QuizClick_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759B355911DA58ACAEA6420CBBF5FA2F /* Pods-QuizClick_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -69,9 +69,9 @@
 		E0DAAB2FE922E47531A7E315F0476172 /* Pods-QuizClick_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizClick_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E62BE6BB184F171648F2F2BC38005BBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F62B947A28156A2A60E7F74080E55DF0 /* QuizClick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuizClick.debug.xcconfig; sourceTree = "<group>"; };
-		F7D29F8D2B0C45FC003791E9 /* QuizClick.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuizClick.storyboard; sourceTree = "<group>"; };
-		F7D29FF02B14174A003791E9 /* QuizClick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizClick.swift; sourceTree = "<group>"; };
-		F7D29FF22B14175D003791E9 /* QuizClickLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizClickLoader.swift; sourceTree = "<group>"; };
+		F7D29FF42B14198D003791E9 /* QuizClick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizClick.swift; path = QuizClick/Classes/QuizClick.swift; sourceTree = "<group>"; };
+		F7D29FF82B1419BE003791E9 /* QuizClickLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizClickLoader.swift; path = QuizClick/Classes/QuizClickLoader.swift; sourceTree = "<group>"; };
+		F7D29FFA2B1419DE003791E9 /* QuizClick.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = QuizClick.storyboard; path = QuizClick/Classes/QuizClick.storyboard; sourceTree = "<group>"; };
 		F95B331D4F13C896DF7AB25F3474706E /* Pods-QuizClick_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizClick_Example-dummy.m"; sourceTree = "<group>"; };
 		FD6A9A5E98CB9CFDF8B34E4A13B85B8F /* Pods-QuizClick_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizClick_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,9 +176,9 @@
 			children = (
 				E06BB28BCA09A2B2798B62E3D5D920D6 /* Pod */,
 				728FE79FCFDBC8312CFDA4BFE1ECC816 /* Support Files */,
-				F7D29F8D2B0C45FC003791E9 /* QuizClick.storyboard */,
-				F7D29FF02B14174A003791E9 /* QuizClick.swift */,
-				F7D29FF22B14175D003791E9 /* QuizClickLoader.swift */,
+				F7D29FF42B14198D003791E9 /* QuizClick.swift */,
+				F7D29FF82B1419BE003791E9 /* QuizClickLoader.swift */,
+				F7D29FFA2B1419DE003791E9 /* QuizClick.storyboard */,
 			);
 			name = QuizClick;
 			path = ../..;
@@ -363,7 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D29F8E2B0C45FC003791E9 /* QuizClick.storyboard in Resources */,
+				F7D29FFB2B1419DE003791E9 /* QuizClick.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,8 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D29FF12B14174A003791E9 /* QuizClick.swift in Sources */,
-				F7D29FF32B14175D003791E9 /* QuizClickLoader.swift in Sources */,
+				F7D29FF52B14198D003791E9 /* QuizClick.swift in Sources */,
+				F7D29FF92B1419BE003791E9 /* QuizClickLoader.swift in Sources */,
 				D1C5B204CCFAC552535AF8DE7DCC9F5A /* QuizClick-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
