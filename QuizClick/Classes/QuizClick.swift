@@ -27,7 +27,7 @@ open class QuizClick : UIViewController, WKUIDelegate{
         self.ad_group = ad_group
         self.version = version
         self.isPrepare = isPrepare
-        self.domain = "http://quiz.app.test.jamonglab.com"
+        self.domain = "https://app.quizclick.io"
         
         
         if(version==1){
